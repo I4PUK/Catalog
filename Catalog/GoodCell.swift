@@ -80,7 +80,6 @@ class GoodCell: UITableViewCell {
         addSubview(productImage)
         addSubview(productNameLabel)
         addSubview(productDescriptionLabel)
-        //addSubview(productQuantity)
         addSubview(productPrice)
 
         productImage.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: -100).isActive = true
